@@ -1,0 +1,8 @@
+phrase = input("Entrez une phrase : ")  
+mots = phrase.split()  
+
+un_sur_deux = mots[::2]  
+
+print(f"Mots un sur deux : {un_sur_deux}")
+
+q = input("Appuyer la la touche ENTER pour quitter..")
